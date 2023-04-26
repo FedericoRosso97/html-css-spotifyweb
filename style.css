@@ -8,21 +8,15 @@ padding: 0;
     display: flex;
 }
 
-nav{
-width: 100px;
+nav,.nav-big{
+width: 80px;
 height: calc(100vh - 125px);
 background-color: black;
 color: white;
 flex-direction: column;
 text-align: center;
 justify-content: space-between;
-padding: 0.5rem 0;
-}
-
-main section{
-    width: calc(100vw - 100px);
-    height: calc(100vh - 125px);
-    background-color: darkblue;
+padding: 1rem 0;
 }
 
 .icons{
@@ -35,7 +29,42 @@ main section{
     gap: 30px;
 }
 
+.nav-big{
+    display: none;
+}
+
+main section{
+    width: calc(100vw - 80px);
+    height: calc(100vh - 125px);
+    background-color: darkblue;
+}
+
 footer{
     height: 125px;
     background-color:gray;
+}
+
+/*responsive S*/
+@media screen  and (min-width:420px) {
+    nav{
+        width:300px ;
+    }
+    
+    .icons,.user{
+        display: none;
+    }
+     .nav-big{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+     }
+}
+
+/*responsive md*/
+@media screen  and (min-width:720px) {
+    
+}
+/*responsive lg*/
+@media screen  and (min-width:1020px) {
+   
 }
