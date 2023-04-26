@@ -16,6 +16,7 @@ color: white;
 flex-direction: column;
 text-align: center;
 justify-content: space-between;
+/*position: fixed;*/
 }
 
 .icons{
@@ -34,7 +35,7 @@ justify-content: space-between;
 
 main section{
     width: calc(100vw - 80px);
-    height: calc(100vh - 100px);
+    /*height: calc(100vh - 100px);*/
     background-color: darkblue;
     color: white;
 }
@@ -64,10 +65,35 @@ main section{
     margin-right: 1.5rem;
 }
 
+.album{
+padding: 0.5rem;
+}
+
+.rec-container{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.disc{
+    width: calc(98%/2);
+}
+
+/*.img{
+    width:145px ;
+    height:145px ;
+}*/
+
+.disc img{
+    max-width: 100%;
+
+}
+
 footer{
     height: 100px;
-    background-color:gray;
+    background-color:rgb(133, 128, 128);
     position: fixed;
+    position: absolute;
+    z-index:1;
 }
 
 /*responsive S*/
