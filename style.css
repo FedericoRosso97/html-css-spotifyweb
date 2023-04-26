@@ -10,13 +10,12 @@ padding: 0;
 
 nav,.nav-big{
 width: 80px;
-height: calc(100vh - 125px);
+height: calc(100vh - 100px);
 background-color: black;
 color: white;
 flex-direction: column;
 text-align: center;
 justify-content: space-between;
-padding: 1rem 0;
 }
 
 .icons{
@@ -35,12 +34,12 @@ padding: 1rem 0;
 
 main section{
     width: calc(100vw - 80px);
-    height: calc(100vh - 125px);
+    height: calc(100vh - 100px);
     background-color: darkblue;
 }
 
 footer{
-    height: 125px;
+    height: 100px;
     background-color:gray;
 }
 
@@ -48,21 +47,44 @@ footer{
 @media screen  and (min-width:420px) {
     nav{
         width:300px ;
-        padding:1.5rem ;
+        
     }
     
     .icons,.user{
         display: none;
     }
-     .nav-big{
+     
+    .nav-big{
         display: flex;
         flex-direction: column;
         text-align: start;
         width:300px ;
+        padding:0 1.5rem ;
+     }
+
+     .icons-big{
+        margin-top: 1rem;
+        line-height: 2rem;
+     }
+
+.spotify,.playlist{
+    margin: 1.5rem 0;
+}
+
+     .icon{
+        margin: 0.5rem 0;
+     }
+
+     .icon p{
+        margin-left: 10px;
      }
 
      .playlist .crea-play{
         display: inline-block;
+     }
+
+     .user-big div{
+        margin: 0.5rem 0;
      }
 }
 
