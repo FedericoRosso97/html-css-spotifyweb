@@ -53,6 +53,17 @@ main section{
     padding: 1rem;
 }
 
+.menu{
+   flex-wrap: wrap;
+   justify-content: center;
+   line-height: 3rem;
+   padding: 0 2rem;
+}
+
+.menu p{
+    margin-right: 1.5rem;
+}
+
 footer{
     height: 100px;
     background-color:gray;
