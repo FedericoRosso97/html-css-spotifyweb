@@ -48,6 +48,7 @@ footer{
 @media screen  and (min-width:420px) {
     nav{
         width:300px ;
+        padding:1.5rem ;
     }
     
     .icons,.user{
@@ -57,6 +58,11 @@ footer{
         display: flex;
         flex-direction: column;
         text-align: start;
+        width:300px ;
+     }
+
+     .playlist .crea-play{
+        display: inline-block;
      }
 }
 
