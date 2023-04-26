@@ -71,11 +71,11 @@ padding: 0.5rem;
 
 .rec-container{
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .disc{
-    width: calc(98%/2);
+    width: calc(94%/2);
+    margin: 1%;
 }
 
 /*.img{
@@ -97,7 +97,7 @@ footer{
 }
 
 /*responsive S*/
-@media screen  and (min-width:420px) {
+@media screen  and (min-width:500px) {
     nav{
         width:300px ;
         
@@ -143,9 +143,13 @@ footer{
 
 /*responsive md*/
 @media screen  and (min-width:720px) {
-    
+    .disc{
+        width: calc(92%/4);
+    }
 }
 /*responsive lg*/
 @media screen  and (min-width:1020px) {
-   
+    .disc{
+        width: calc(88%/6);
+    }
 }
