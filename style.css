@@ -12,6 +12,7 @@ nav{
 width: 100px;
 height: calc(100vh - 125px);
 background-color: black;
+color: white;
 }
 
 main section{
