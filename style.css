@@ -105,12 +105,36 @@ footer{
     align-items: center;
     width: calc(100%/3);
     border: 1px solid black;
+    position: relative;
 }
 
 footer img{
     max-width: 30px;
-    vertical-align: middle;
 }
+
+.heart-folder{
+    position: absolute;
+    right: 0;
+}
+
+.play{
+    text-align: center;
+    gap: 2.5rem;
+}
+
+.barra-musica{
+    justify-content: center;
+    align-items: center;
+}
+
+.tempo{
+    width: 65%;
+    height: 5px;
+    background-color:grey;
+    margin: 0 0.5rem;
+
+}
+
 
 /*responsive S*/
 @media screen  and (min-width:576px) {
