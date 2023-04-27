@@ -95,9 +95,21 @@ padding: 0.5rem;
 footer{
     height: 100px;
     width: 100%;
-    background-color:rgb(133, 128, 128);
-    
-    z-index: 3;
+    background-color:rgb(86, 85, 85);
+    padding: 0.5rem;
+    color: white;
+
+}
+
+.foot-box{
+    align-items: center;
+    width: calc(100%/3);
+    border: 1px solid black;
+}
+
+footer img{
+    max-width: 30px;
+    vertical-align: middle;
 }
 
 /*responsive S*/
