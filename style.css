@@ -80,12 +80,16 @@ padding: 0.5rem;
     width: calc(94%/2);
     margin: 1%;
     position: relative;
+    text-align: center;
+    line-height: 1.5rem;
 }
 
-/*.img{
-    width:145px ;
-    height:145px ;
-}*/
+.round-img{
+    width: 100% ;
+    height:100% ;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
 .disc img{
     max-width: 100%;
