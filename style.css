@@ -104,22 +104,19 @@ footer{
 .foot-box{
     align-items: center;
     width: calc(100%/3);
-    border: 1px solid black;
-    position: relative;
+    padding: 0.2rem;
 }
 
 footer img{
     max-width: 30px;
 }
 
-.heart-folder{
-    position: absolute;
-    right: 0;
-}
-
 .play{
     text-align: center;
-    gap: 2.5rem;
+}
+
+.play-container{
+    width: 100%;
 }
 
 .barra-musica{
@@ -132,9 +129,11 @@ footer img{
     height: 5px;
     background-color:grey;
     margin: 0 0.5rem;
-
 }
 
+.volume{
+    gap:0.2em;
+}
 
 /*responsive S*/
 @media screen  and (min-width:576px) {
