@@ -8,6 +8,7 @@ padding: 0;
     display: flex;
 }
 
+
 nav,.nav-big{
 width: 80px;
 height: calc(100vh - 100px);
@@ -33,11 +34,12 @@ justify-content: space-between;
     display: none;
 }
 
-main section{
+.sezione-dischi{
     width: calc(100vw - 80px);
-    /*height: calc(100vh - 100px);*/
+    height: calc(100vh - 100px);
     background-color: darkblue;
     color: white;
+    overflow: auto;
 }
 
 .main-testa{
@@ -52,6 +54,7 @@ main section{
     background-color:rgb(25, 25, 67);
     color: white;
     padding: 1rem;
+    position: relative;
 }
 
 .menu{
@@ -76,6 +79,7 @@ padding: 0.5rem;
 .disc{
     width: calc(94%/2);
     margin: 1%;
+    position: relative;
 }
 
 /*.img{
@@ -90,14 +94,14 @@ padding: 0.5rem;
 
 footer{
     height: 100px;
+    width: 100%;
     background-color:rgb(133, 128, 128);
-    position: fixed;
-    position: absolute;
-    z-index:1;
+    
+    z-index: 3;
 }
 
 /*responsive S*/
-@media screen  and (min-width:500px) {
+@media screen  and (min-width:576px) {
     nav{
         width:300px ;
         
@@ -142,13 +146,13 @@ footer{
 }
 
 /*responsive md*/
-@media screen  and (min-width:720px) {
+@media screen  and (min-width:768px) {
     .disc{
         width: calc(92%/4);
     }
 }
 /*responsive lg*/
-@media screen  and (min-width:1020px) {
+@media screen  and (min-width:1200px) {
     .disc{
         width: calc(88%/6);
     }
