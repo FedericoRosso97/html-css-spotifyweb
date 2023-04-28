@@ -70,7 +70,17 @@ justify-content: space-between;
    justify-content: center;
    line-height: 3rem;
    padding: 0 2rem;
+   
 }
+
+.gray{
+    color: rgb(165, 165, 165);
+}
+
+.gray:hover{
+    color: white;
+}
+    
 
 .menu p{
     margin-right: 1.5rem;
@@ -139,7 +149,7 @@ footer{
 }
 
 footer img{
-    max-width: 30%;
+    max-width: 30px;
 }
 
 .play{
