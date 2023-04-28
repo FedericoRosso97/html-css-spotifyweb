@@ -38,7 +38,7 @@ justify-content: space-between;
 }
 
 .sezione-dischi{
-    width: calc(100vw - 80px);
+    width: calc(100% - 80px);
     height: calc(100vh - 100px);
     background-color: rgb(25, 25, 67);
     color: white;
